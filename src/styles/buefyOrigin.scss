@@ -1,20 +1,3 @@
-// .button.is-ghost {
-//     background: transparent;
-//     border-color: transparent !important;
-//     color: #FFFFFF !important;
-//     text-decoration: none;
-//     &:hover,
-//     &:focus,
-//     &:focus-within,
-//     &:focus-visible,
-//     &:visited,
-//     &:target,
-//     &:active {
-//         box-shadow: 0 0 0 0.125em #D5FF5C !important;
-//         border-radius: 15px;
-//     }
-// }
-
 a.navbar-item:focus-within{
     background-color: transparent !important;;
 }
@@ -32,4 +15,8 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
 
 .navbar-start {
     margin-left: auto !important;
+}
+
+.footer {
+    background-color: transparent !important;
 }

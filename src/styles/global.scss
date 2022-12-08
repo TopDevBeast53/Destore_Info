@@ -18,72 +18,24 @@ body {
       display: flex;
     }
   }
-  .button-pink{
-    background-color: #CC019F;
-    color: #FFFFFF;
-    border-color: #CC019F;
-    &:hover,
-    &:focus,
-    &:active {
-      border-color: #CC019F;
-      background-color: #CC019F;
-      color: #FFFFFF;
-      font-weight: 600;
-    }
-  }
 
 
   //font Control
-  .font-size-51{
-    font-size: 44px;
-    font-weight: bold;
+  .font-size-16-light{
+    font-size: 16px;
+    font-weight: 500;
     color: #ffffff;
-    // @include desktop {
-    // }
     @include mobile {
-      font-size: 25px;
+      font-size: 12px;
     }
   }
-  .font-size-44{
-    font-size: 44px;
-    font-weight: bold;
-    color: #ffffff;
-    // @include desktop {
-    // }
-    @include mobile {
-      font-size: 22px;
-    }
-  }
+
   .font-size-24{
     font-size: 24px;
-    font-weight: bold;
+    font-weight: 600;
     color: #ffffff;
     @include mobile {
       font-size: 12px;
-    }
-  }
-  .font-size-24-light{
-    font-size: 24px;
-    font-weight: 400;
-    color: #ffffff;
-    @include mobile {
-      font-size: 12px;
-    }
-  }
-  .font-size-20{
-    font-size: 20px;
-    font-weight: bold;
-    color: #ffffff;
-    @include mobile {
-      font-size: 10px;
-    }
-  }
-  .font-size-20-light{
-    font-size: 20px;
-    font-weight: 400;
-    color: #ffffff;
-    @include mobile {
-      font-size: 15px;
     }
   }
 

@@ -1,5 +1,5 @@
 <template>
-    <b-navbar class="mt-4">
+    <b-navbar class="mt-4 container">
         <template #brand>
             <b-navbar-item tag="router-link" :to="{ path: '/' }">
                 <img
@@ -10,22 +10,22 @@
 
 		<template #start>
 			<b-navbar-item tag="router-link" :to="{ path: '/' }">
-				<b-button type="is-ghost" class="font-size-20-light"
+				<b-button type="is-ghost" class="font-size-24"
 					>Marketplace</b-button
 				>
 			</b-navbar-item>
 			<b-navbar-item tag="router-link" :to="{ path: '/grage' }">
-				<b-button type="is-ghost" class="font-size-20-light"
+				<b-button type="is-ghost" class="font-size-24"
 					>Information</b-button
 				>
 			</b-navbar-item>
 			<b-navbar-item tag="router-link" :to="{ path: '/showRoom' }">
-				<b-button type="is-ghost" class="font-size-20-light"
+				<b-button type="is-ghost" class="font-size-24"
 					>Contact</b-button
 				>
 			</b-navbar-item>
 			<b-navbar-item tag="router-link" :to="{ path: '/leaderBoard' }">
-				<b-button type="is-ghost" class="font-size-20-light"
+				<b-button type="is-ghost" class="font-size-24"
 					>Team</b-button
 				>
 			</b-navbar-item>

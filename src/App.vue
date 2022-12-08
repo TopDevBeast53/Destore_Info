@@ -1,15 +1,30 @@
 <template>
-  <div id="app" class="min-h-full">
-    <router-view/>
-  </div>
+	<div id="app" class="min-h-full">
+		<MenuHeader />
+		<router-view />
+		<Footer />
+	</div>
 </template>
+
+<script>
+import { Component, Vue } from 'vue-property-decorator';
+import MenuHeader from '@/components/MenuHeader.vue'; // @ is an alias to /src
+import Footer from '@/components/Footer.vue'; // @ is an alias to /src
+
+@Component({
+	components: {
+		MenuHeader,
+		Footer,
+	},
+})
+export default class App extends Vue {}
+</script>
 
 <style lang="scss">
 @import './styles';
 
 #app {
-  font-family: 'Work Sans', sans-serif !important;
-  text-align: center;
+	font-family: 'Work Sans', sans-serif !important;
+	text-align: center;
 }
-
 </style>
