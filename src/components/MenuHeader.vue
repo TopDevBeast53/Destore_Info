@@ -14,17 +14,17 @@
 					>Marketplace</b-button
 				>
 			</b-navbar-item>
-			<b-navbar-item tag="router-link" :to="{ path: '/grage' }">
+			<b-navbar-item tag="router-link" :to="{ path: '/' }">
 				<b-button type="is-ghost" class="font-size-24"
 					>Information</b-button
 				>
 			</b-navbar-item>
-			<b-navbar-item tag="router-link" :to="{ path: '/showRoom' }">
+			<b-navbar-item tag="router-link" :to="{ path: '/' }">
 				<b-button type="is-ghost" class="font-size-24"
 					>Contact</b-button
 				>
 			</b-navbar-item>
-			<b-navbar-item tag="router-link" :to="{ path: '/leaderBoard' }">
+			<b-navbar-item tag="router-link" :to="{ path: '/' }">
 				<b-button type="is-ghost" class="font-size-24"
 					>Team</b-button
 				>

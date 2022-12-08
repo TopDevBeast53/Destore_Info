@@ -30,10 +30,46 @@ body {
     }
   }
 
+  .font-size-22-light{
+    font-size: 22px;
+    font-weight: 500;
+    color: #ffffff;
+    @include mobile {
+      font-size: 12px;
+    }
+  }
+
+  .font-size-22-light-info{
+    font-size: 22px;
+    font-weight: 500;
+    color: #1E1E1E;
+    @include mobile {
+      font-size: 12px;
+    }
+  }
+
   .font-size-24{
     font-size: 24px;
     font-weight: 600;
     color: #ffffff;
+    @include mobile {
+      font-size: 12px;
+    }
+  }
+
+  .font-size-40-light{
+    font-size: 40px;
+    font-weight: 500;
+    color: #ffffff;
+    @include mobile {
+      font-size: 12px;
+    }
+  }
+
+  .font-size-40-light-info{
+    font-size: 40px;
+    font-weight: 500;
+    color: #1E1E1E;
     @include mobile {
       font-size: 12px;
     }
