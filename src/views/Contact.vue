@@ -8,11 +8,44 @@
 					Want to expand your brand?
 				</p>
 			</div>
-			<div>
+			<div class="pb-5">
 				<p class="font-size-22-contact">Name</p>
-				<b-field>
-					<b-input value="Kevin Garvey"></b-input>
+				<b-field class="mt-3">
+					<b-input value=""></b-input>
 				</b-field>
+			</div>
+			<div class="pb-5">
+				<p class="font-size-22-contact">Email</p>
+				<b-field class="mt-3">
+					<b-input value=""></b-input>
+				</b-field>
+			</div>
+			<div class="pb-5">
+				<p class="font-size-22-contact">I want to:</p>
+				<b-field class="mt-3">
+					<b-input value=""></b-input>
+				</b-field>
+			</div>
+			<div class="pb-5">
+				<p class="font-size-22-contact">Mobile Number / Telegram</p>
+				<b-field class="mt-3">
+					<b-input value=""></b-input>
+				</b-field>
+			</div>
+			<div class="pb-5">
+				<p class="font-size-22-contact">Contact</p>
+				<b-field class="mt-3">
+					<b-input value=""></b-input>
+				</b-field>
+			</div>
+			<div class="pb-5">
+				<p class="font-size-22-contact">Message:</p>
+				<b-field class="mt-3">
+					<b-input maxlength="200" type="textarea"></b-input>
+				</b-field>
+			</div>
+			<div class="pb-5">
+				<b-button expanded class="send-button">Send </b-button>
 			</div>
 		</div>
 	</div>
@@ -38,5 +71,12 @@ export default class Contact extends Vue {}
 .info-div {
 	background: #ffffff;
 	text-align: left;
+}
+
+.send-button {
+	background: linear-gradient(180deg, #6200e9 0%, #321b68 100%);
+	box-shadow: -10px 4px 20px rgba(0, 0, 0, 0.3);
+	border-radius: 16px;
+	color: #fff;
 }
 </style>
