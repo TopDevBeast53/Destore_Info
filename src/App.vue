@@ -1,7 +1,8 @@
 <template>
 	<div id="app" class="min-h-full">
-		<MenuHeader />
-		<router-view />
+		<main>
+			<router-view />
+		</main>
 		<Footer />
 	</div>
 </template>
@@ -24,7 +25,7 @@ export default class App extends Vue {}
 @import './styles';
 
 #app {
-	font-family: 'Work Sans', sans-serif !important;
+	font-family: 'Work Sans';
 	text-align: center;
 }
 </style>

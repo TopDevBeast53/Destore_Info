@@ -1,21 +1,28 @@
 import Vue from 'vue'
-import VueRouter, { RouteConfig } from 'vue-router'
-import Information from '../views/Information.vue'
+import Router from 'vue-router'
+Vue.use(Router)
 
-Vue.use(VueRouter)
+const Information = () => import('@/views/Information.vue')
+const Team = () => import('@/views/Team.vue')
+const Contact = () => import('@/views/Contact.vue')
 
-const routes: Array<RouteConfig> = [
-  {
-    path: '/',
-    name: 'information',
-    component: Information
-  },
-]
-
-const router = new VueRouter({
+export default new Router({
   mode: 'history',
-  base: process.env.BASE_URL,
-  routes
+  routes: [
+    {
+      path: '/',
+      name: 'information',
+      component: Information
+    },
+    {
+      path: '/team',
+      name: 'team',
+      component: Team
+    },
+    {
+      path: '/contact',
+      name: 'contact',
+      component: Contact
+    },
+  ],
 })
-
-export default router

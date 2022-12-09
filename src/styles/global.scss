@@ -21,58 +21,60 @@ body {
 
 
   //font Control
-  .font-size-16-light{
-    font-size: 16px;
+
+  .font-size-40-light-info{
+    font-family: 'Work Sans';
+    font-style: normal;
     font-weight: 500;
-    color: #ffffff;
+    font-size: 40px;
+    line-height: 47px;
+    color: #1E1E1E;
     @include mobile {
-      font-size: 12px;
+      font-size: 20px;
     }
   }
 
-  .font-size-22-light{
-    font-size: 22px;
+  .font-size-40-light{
+    font-family: 'Work Sans';
+    font-style: normal;
     font-weight: 500;
-    color: #ffffff;
+    font-size: 40px;
+    color: #FFFFFF;
+    @include mobile {
+      font-size: 20px;
+    }
+  }
+
+  .font-size-24{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: #321B68;
     @include mobile {
       font-size: 12px;
     }
   }
 
   .font-size-22-light-info{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
     font-size: 22px;
-    font-weight: 500;
     color: #1E1E1E;
     @include mobile {
       font-size: 12px;
     }
   }
-
-  .font-size-24{
-    font-size: 24px;
-    font-weight: 600;
-    color: #ffffff;
-    @include mobile {
-      font-size: 12px;
-    }
-  }
-
-  .font-size-40-light{
-    font-size: 40px;
+  
+  .font-size-16-light{
+    font-family: 'Montserrat';
+    font-style: normal;
     font-weight: 500;
-    color: #ffffff;
+    font-size: 16px;
+    color: #FFFFFF;
     @include mobile {
-      font-size: 12px;
+      font-size: 9px;
     }
   }
-
-  .font-size-40-light-info{
-    font-size: 40px;
-    font-weight: 500;
-    color: #1E1E1E;
-    @include mobile {
-      font-size: 12px;
-    }
-  }
-
 }

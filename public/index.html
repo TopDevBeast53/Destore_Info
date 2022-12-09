@@ -5,16 +5,19 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width,initial-scale=1.0" />
 		<link rel="icon" href="<%= BASE_URL %>logo.png" />
-		<link
-			href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300&display=swap"
+		<!-- <link
+			href="https://fonts.googleapis.com/css?family=Work+Sans:wght@100;200;300;400;500;600;700&display=swap"
 			rel="stylesheet"
 		/>
+		<link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'> -->
 		<title><%= htmlWebpackPlugin.options.title %></title>
 		<style>
 			body,
 			div#app {
 				background: linear-gradient(180deg, #ffffff 0%, #6200e9 100%);
 			}
+			@font-face { font-family: Work Sans; src: url('/font/Work_Sans/Work_Sans-VariableFont_wght.ttf'); }
+			@font-face { font-family: Inter; src: url('/font/Inter/Inter-VariableFont_wght.ttf'); }
 		</style>
 	</head>
 	<body>
