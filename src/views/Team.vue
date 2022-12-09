@@ -2,15 +2,16 @@
 	<div class="home min-h-full container">
 		<MenuHeader />
 
+		<div class="pt-6"></div>
 		<div class="columns m-5 p-4">
-			<div class="column is-5 info-div p-4">
-				<div class="level p-4">
-					<div class="level-left">
+			<div class="column is-5 info-div p-4 mb-6">
+				<div class="p-4">
+					<div>
 						<p class="font-size-40-light-info p-4">Josiah</p>
 					</div>
-					<!-- <div class="level-right">
-						<img src="/josiah.png" ratio="110by28" />
-					</div> -->
+					<div class="photo-div">
+						<img src="/josiah.png" class="photo-img" />
+					</div>
 				</div>
 
 				<div class="p-4">
@@ -35,10 +36,13 @@
 				</div>
 			</div>
 			<div class="column is-2"></div>
-			<div class="column is-5 info-div p-4">
-				<div class="level p-4">
-					<div class="level-left">
+			<div class="column is-5 info-div p-4 mb-6">
+				<div class="p-4">
+					<div>
 						<p class="font-size-40-light-info p-4">James</p>
+					</div>
+					<div class="photo-div">
+						<img src="/james.png" class="photo-img" />
 					</div>
 				</div>
 
@@ -65,14 +69,14 @@
 		</div>
 
 		<div class="columns m-5 p-4">
-			<div class="column is-5 info-div p-4">
-				<div class="level p-4">
-					<div class="level-left">
+			<div class="column is-5 info-div p-4 mb-6">
+				<div class="p-4">
+					<div>
 						<p class="font-size-40-light-info p-4">Lisa</p>
 					</div>
-					<!-- <div class="level-right">
-						<img src="/josiah.png" ratio="110by28" />
-					</div> -->
+					<div class="photo-div">
+						<img src="/lisa.png" class="photo-img" />
+					</div>
 				</div>
 
 				<div class="p-4">
@@ -98,10 +102,13 @@
 				</div>
 			</div>
 			<div class="column is-2"></div>
-			<div class="column is-5 info-div p-4">
-				<div class="level p-4">
-					<div class="level-left">
+			<div class="column is-5 info-div p-4 mb-6">
+				<div class="p-4">
+					<div>
 						<p class="font-size-40-light-info p-4">Levi</p>
+					</div>
+					<div class="photo-div">
+						<img src="/levi.png" class="photo-img" />
 					</div>
 				</div>
 
@@ -129,14 +136,18 @@
 		</div>
 
 		<div class="columns m-5 p-4">
-			<div class="column is-5 info-div p-4">
-				<div class="level p-4">
-					<div class="level-left">
+			<div class="column is-5 info-div p-4 mb-6">
+				<div class="p-4">
+					<div>
 						<p class="font-size-40-light-info p-4">Christian</p>
 					</div>
-					<!-- <div class="level-right">
-						<img src="/josiah.png" ratio="110by28" />
-					</div> -->
+					<div class="photo-div">
+						<img
+							src="/christian.png"
+							ratio="110by28"
+							class="photo-img"
+						/>
+					</div>
 				</div>
 
 				<div class="p-4">
@@ -161,12 +172,20 @@
 				</div>
 			</div>
 			<div class="column is-2"></div>
-			<div class="column is-5 info-div p-4">
-				<div class="level p-4">
-					<div class="level-left">
+			<div class="column is-5 info-div p-4 mb-6">
+				<div class="p-4">
+					<div>
 						<p class="font-size-40-light-info p-4">
 							New Position.!
 						</p>
+					</div>
+					<div class="photo-div">
+						<img
+							@click="Contact"
+							src="/newPosition.png"
+							ratio="110by28"
+							class="photo-img postion"
+						/>
 					</div>
 				</div>
 
@@ -221,7 +240,13 @@ import Footer from '@/components/Footer.vue'; // @ is an alias to /src
 		Footer,
 	},
 })
-export default class Team extends Vue {}
+export default class Team extends Vue {
+	Contact() {
+		this.$router.push({
+			name: 'contact',
+		});
+	}
+}
 </script>
 
 <style lang="scss">
@@ -239,5 +264,22 @@ export default class Team extends Vue {}
 }
 .partner-text {
 	text-align: left;
+}
+.photo-div {
+	position: relative;
+}
+.photo-img {
+	position: absolute;
+	top: -200px;
+	right: -100px;
+	@include mobile {
+		width: 90px;
+		height: 90px;
+		top: -150px;
+		right: -70px;
+	}
+}
+.postion{
+	cursor: pointer;
 }
 </style>

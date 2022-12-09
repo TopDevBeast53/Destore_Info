@@ -2,21 +2,17 @@
 	<div class="home min-h-full container">
 		<MenuHeader />
 
-		<div class="info-div">
+		<div class="info-div p-5 mt-5">
 			<div>
-				<p class="font-size-50-contact">Want to expand your brand?</p>
+				<p class="font-size-50-contact mb-5">
+					Want to expand your brand?
+				</p>
 			</div>
 			<div>
-				<p class="font-size-22-contact">
-					Name
-				</p>
-				<!-- <b-field label="mint.expert.batchSend">
-					<b-input
-						type="textarea"
-						placeholder="Distribute nfts to multiple addresses"
-						spellcheck="true"
-					></b-input>
-				</b-field> -->
+				<p class="font-size-22-contact">Name</p>
+				<b-field>
+					<b-input value="Kevin Garvey"></b-input>
+				</b-field>
 			</div>
 		</div>
 	</div>
@@ -33,8 +29,7 @@ import Footer from '@/components/Footer.vue'; // @ is an alias to /src
 		Footer,
 	},
 })
-export default class Contact extends Vue {
-}
+export default class Contact extends Vue {}
 </script>
 
 <style lang="scss">

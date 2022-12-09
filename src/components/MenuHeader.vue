@@ -14,7 +14,7 @@
 					></b-button
 				>
 			</b-navbar-item>
-			<b-navbar-item tag="router-link" :to="{ path: '/information' }">
+			<b-navbar-item tag="router-link" :to="{ path: '/' }">
 				<b-button class="font-size-24 navbar-head-color" type="is-ghost"> Information</b-button>
 			</b-navbar-item>
 			<b-navbar-item tag="router-link" :to="{ path: '/contact' }">
