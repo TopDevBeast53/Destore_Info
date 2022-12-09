@@ -8,30 +8,20 @@
 
 		<template #start>
 			<b-navbar-item>
-				<b-button type="is-ghost" class="font-size-24"
-					><a href="https://destore.network/"
+				<b-button class="font-size-24"  type="is-ghost"
+					><a href="https://destore.network/" class="navbar-head-color"
 						>Marketplace</a
 					></b-button
 				>
 			</b-navbar-item>
-			<b-navbar-item>
-				<b-button
-					@click="Information"
-					type="is-ghost"
-					class="font-size-24"
-				>
-					Information</b-button
-				>
+			<b-navbar-item tag="router-link" :to="{ path: '/information' }">
+				<b-button class="font-size-24 navbar-head-color" type="is-ghost"> Information</b-button>
 			</b-navbar-item>
-			<b-navbar-item>
-				<b-button @click="Contact" type="is-ghost" class="font-size-24">
-					Contact</b-button
-				>
+			<b-navbar-item tag="router-link" :to="{ path: '/contact' }">
+				<b-button class="font-size-24 navbar-head-color" type="is-ghost"> Contact</b-button>
 			</b-navbar-item>
-			<b-navbar-item>
-				<b-button @click="Team" type="is-ghost" class="font-size-24">
-					Team</b-button
-				>
+			<b-navbar-item tag="router-link" :to="{ path: '/team' }">
+				<b-button class="font-size-24 navbar-head-color" type="is-ghost"> Team</b-button>
 			</b-navbar-item>
 		</template>
 	</b-navbar>
@@ -63,9 +53,11 @@ export default class MenuHeader extends Vue {
 </script>
 
 <style scoped>
-
 .navbarCustom {
 	padding-left: 0px;
 	padding-right: 0px;
+}
+.navbar-head-color{
+	color: #321B68 !important;
 }
 </style>

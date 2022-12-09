@@ -19,8 +19,29 @@ body {
     }
   }
 
+  .text-word-wrap{
+    word-wrap: break-word;
+  }
+
+  .button.is-ghost {
+    background: none;
+    border-color: transparent;
+    color: #321B68 !important;
+    text-decoration: none;
+  }
 
   //font Control
+  .font-size-100{
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 121px;
+    color: #FFFFFF;
+    @include mobile {
+      font-size: 40px;
+    }
+  }
 
   .font-size-40-light-info{
     font-family: 'Work Sans';

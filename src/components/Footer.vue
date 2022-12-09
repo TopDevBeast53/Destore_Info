@@ -84,6 +84,8 @@ export default class Footer extends Vue {
     flex-direction: column;
     padding-left: 16px;
     padding-right: 16px;
+    padding-top:16px;
+    padding-bottom:16px;
     height: 85px;
 
     @include desktop {
