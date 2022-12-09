@@ -23,7 +23,13 @@
 			<div class="pb-5">
 				<p class="font-size-22-contact">I want to:</p>
 				<b-field class="mt-3">
-					<b-input value=""></b-input>
+					<b-select placeholder="I want to:" rounded expanded>
+						<option value="Create a Web3 Store">Create a Web3 Store</option>
+						<option value="Talk about a problem im having">Talk about a problem im having</option>
+						<option value="Expand my brand">Expand my brand</option>
+						<option value="Invest in DeStore Network">Invest in DeStore Network</option>
+						<option value="Work for DeStrore Network">Work for DeStrore Network</option>
+					</b-select>
 				</b-field>
 			</div>
 			<div class="pb-5">

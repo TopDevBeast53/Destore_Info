@@ -199,7 +199,7 @@
 						are building.
 					</p>
 				</div>
-				<div class="level p-4">
+				<!-- <div class="level p-4">
 					<div class="level-left">
 						<img src="/linkedin.png" ratio="110by28" />
 					</div>
@@ -207,7 +207,7 @@
 					<div class="level-right">
 						<img src="/twitter.png" ratio="110by28" />
 					</div>
-				</div>
+				</div> -->
 			</div>
 		</div>
 

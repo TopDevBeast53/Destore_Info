@@ -1,15 +1,9 @@
 
-a.navbar-item:focus-within{
-    background-color: transparent !important;
-}
-a.navbar-item:hover{
-    background-color: transparent !important;
-}
-
-.navbar-menu {
-    background-color: transparent !important;
-}
-.navbar {
+a.navbar-item:focus-within,
+a.navbar-item:hover,
+.navbar-menu,
+.navbar
+{
     background-color: transparent !important;
 }
 
@@ -27,18 +21,24 @@ a.navbar-item:hover{
     padding-bottom:  0px !important;
 }
 
-.input{
+.input,
+.textarea,
+.select.is-empty select,
+.select.is-fullwidth select,
+.select select option:disabled,
+.select select option{
     border: 3px solid #321B68 !important;
     filter: drop-shadow(-10px 4px 20px rgba(0, 0, 0, 0.25)) !important;
     border-radius: 16px !important;
     color: #321B68 !important;
 }
 
-.textarea{
-    border: 3px solid #321B68 !important;
-    filter: drop-shadow(-10px 4px 20px rgba(0, 0, 0, 0.25)) !important;
-    border-radius: 16px !important;
-    color: #321B68 !important;
+.select select:active{
+    box-shadow: none !important;
+}
+
+.select:not(.is-multiple):not(.is-loading)::after {
+    border-color: #321B68 !important;
 }
 
 .button.is-ghost {
