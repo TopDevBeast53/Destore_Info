@@ -2,12 +2,13 @@
 	<div class="home min-h-full container">
 		<MenuHeader />
 
-		<div class="pt-6"></div>
+		<div class="pt-6 pb-6 mt-6 mb-6"></div>
+		<div class="pt-6 pb-6 mt-6 mb-6"></div>
 		<div class="columns m-5 p-4">
-			<div class="column is-5 info-div p-4 mb-6">
+			<div class="column is-4 info-div p-4 mb-6 mt-6">
 				<div class="p-4">
 					<div>
-						<p class="font-size-40-light-info p-4">Josiah</p>
+						<p class="font-size-40-light-info">Josiah</p>
 					</div>
 					<div class="photo-div">
 						<img src="/josiah.png" class="photo-img" />
@@ -25,21 +26,29 @@
 						reality.
 					</p>
 				</div>
-				<div class="level p-4">
+				<div class="level p-4 is-mobile">
 					<div class="level-left">
-						<img src="/linkedin.png" ratio="110by28" />
+						<img
+							src="/linkedin.png"
+							ratio="110by28"
+							class="linkImg"
+						/>
 					</div>
 
 					<div class="level-right">
-						<img src="/twitter.png" ratio="110by28" />
+						<img
+							src="/twitter.png"
+							ratio="110by28"
+							class="linkImg"
+						/>
 					</div>
 				</div>
 			</div>
-			<div class="column is-2"></div>
-			<div class="column is-5 info-div p-4 mb-6">
+			<div class="column is-3"></div>
+			<div class="column is-4 info-div p-4 mb-6 mt-6">
 				<div class="p-4">
 					<div>
-						<p class="font-size-40-light-info p-4">James</p>
+						<p class="font-size-40-light-info">James</p>
 					</div>
 					<div class="photo-div">
 						<img src="/james.png" class="photo-img" />
@@ -56,23 +65,32 @@
 						to bringing its disruptive vision to fruition.
 					</p>
 				</div>
-				<div class="level p-4">
+				<div class="level p-4 is-mobile">
 					<div class="level-left">
-						<img src="/linkedin.png" ratio="110by28" />
+						<img
+							src="/linkedin.png"
+							ratio="110by28"
+							class="linkImg"
+						/>
 					</div>
 
 					<div class="level-right">
-						<img src="/twitter.png" ratio="110by28" />
+						<img
+							src="/twitter.png"
+							ratio="110by28"
+							class="linkImg"
+						/>
 					</div>
 				</div>
 			</div>
 		</div>
+		<div class="pt-6"></div>
 
 		<div class="columns m-5 p-4">
-			<div class="column is-5 info-div p-4 mb-6">
+			<div class="column is-4 info-div p-4 mb-6 mt-6">
 				<div class="p-4">
 					<div>
-						<p class="font-size-40-light-info p-4">Lisa</p>
+						<p class="font-size-40-light-info">Lisa</p>
 					</div>
 					<div class="photo-div">
 						<img src="/lisa.png" class="photo-img" />
@@ -91,21 +109,29 @@
 						Web3.0.
 					</p>
 				</div>
-				<div class="level p-4">
+				<div class="level p-4 is-mobile">
 					<div class="level-left">
-						<img src="/linkedin.png" ratio="110by28" />
+						<img
+							src="/linkedin.png"
+							ratio="110by28"
+							class="linkImg"
+						/>
 					</div>
 
 					<div class="level-right">
-						<img src="/twitter.png" ratio="110by28" />
+						<img
+							src="/twitter.png"
+							ratio="110by28"
+							class="linkImg"
+						/>
 					</div>
 				</div>
 			</div>
-			<div class="column is-2"></div>
-			<div class="column is-5 info-div p-4 mb-6">
+			<div class="column is-3"></div>
+			<div class="column is-4 info-div p-4 mb-6 mt-6">
 				<div class="p-4">
 					<div>
-						<p class="font-size-40-light-info p-4">Levi</p>
+						<p class="font-size-40-light-info">Levi</p>
 					</div>
 					<div class="photo-div">
 						<img src="/levi.png" class="photo-img" />
@@ -123,30 +149,35 @@
 						future.
 					</p>
 				</div>
-				<div class="level p-4">
+				<div class="level p-4 is-mobile">
 					<div class="level-left">
-						<img src="/linkedin.png" ratio="110by28" />
+						<img
+							src="/linkedin.png"
+							ratio="110by28"
+							class="linkImg"
+						/>
 					</div>
 
 					<div class="level-right">
-						<img src="/twitter.png" ratio="110by28" />
+						<img
+							src="/twitter.png"
+							ratio="110by28"
+							class="linkImg"
+						/>
 					</div>
 				</div>
 			</div>
 		</div>
+		<div class="pt-6"></div>
 
 		<div class="columns m-5 p-4">
-			<div class="column is-5 info-div p-4 mb-6">
+			<div class="column is-4 info-div p-4 mb-6 mt-6">
 				<div class="p-4">
 					<div>
-						<p class="font-size-40-light-info p-4">Christian</p>
+						<p class="font-size-40-light-info">Christian</p>
 					</div>
 					<div class="photo-div">
-						<img
-							src="/christian.png"
-							ratio="110by28"
-							class="photo-img"
-						/>
+						<img src="/christian.png" class="photo-img" />
 					</div>
 				</div>
 
@@ -161,21 +192,29 @@
 						to DeStore.
 					</p>
 				</div>
-				<div class="level p-4">
+				<div class="level p-4 is-mobile">
 					<div class="level-left">
-						<img src="/linkedin.png" ratio="110by28" />
+						<img
+							src="/linkedin.png"
+							ratio="110by28"
+							class="linkImg"
+						/>
 					</div>
 
 					<div class="level-right">
-						<img src="/twitter.png" ratio="110by28" />
+						<img
+							src="/twitter.png"
+							ratio="110by28"
+							class="linkImg"
+						/>
 					</div>
 				</div>
 			</div>
-			<div class="column is-2"></div>
-			<div class="column is-5 info-div p-4 mb-6">
+			<div class="column is-3"></div>
+			<div class="column is-4 info-div p-4 mb-6 mt-6">
 				<div class="p-4">
 					<div>
-						<p class="font-size-40-light-info p-4">
+						<p class="font-size-40-light-info">
 							New Position.!
 						</p>
 					</div>
@@ -183,7 +222,6 @@
 						<img
 							@click="Contact"
 							src="/newPosition.png"
-							ratio="110by28"
 							class="photo-img postion"
 						/>
 					</div>
@@ -199,32 +237,55 @@
 						are building.
 					</p>
 				</div>
-				<!-- <div class="level p-4">
+				<!-- <div class="level p-5 is-mobile">
 					<div class="level-left">
-						<img src="/linkedin.png" ratio="110by28" />
+						<img src="/linkedin.png" ratio="110by28" class="linkImg" />
 					</div>
 
 					<div class="level-right">
-						<img src="/twitter.png" ratio="110by28" />
+						<img src="/twitter.png" ratio="110by28" class="linkImg" />
 					</div>
 				</div> -->
 			</div>
 		</div>
 
-		<div class="p-4">
+		<div class="p-5">
 			<p class="font-size-100 pt-5 partner-text">Partners</p>
 			<hr style="background-color: rgb(121, 121, 121); height: 4px" />
 		</div>
 
-		<div class="columns mt-5 p-4">
+		<div class="columns mt-5 p-5">
 			<div class="column is-5">
 				<b-image src="/darwinia.png" ratio="810by100"></b-image>
 			</div>
+			<div class="column is-2"></div>
+			<div class="column is-5">
+				<b-image src="/platinum.png" ratio="560by100"></b-image>
+			</div>
 		</div>
-		<div class="columns mt-5 p-4">
+		<div class="columns mt-5 p-5">
 			<div class="column is-5">
 				<b-image src="/future.png" ratio="760by130"></b-image>
 			</div>
+			<div class="column is-2"></div>
+			<div class="column is-5">
+				<b-image src="/metaverse.png" ratio="588by100"></b-image>
+			</div>
+		</div>
+		<div class="columns mt-5 p-5">
+			<div class="column is-5">
+				<b-image src="/metadojo.png" ratio="675by200"></b-image>
+			</div>
+			<div class="column is-2"></div>
+			<div class="column is-5">
+				<img src="/aem.png" style="width:120px;height:200px;" />
+			</div>
+		</div>
+		<div class="columns mt-5 p-5">
+			<div class="column is-5">
+				<b-image src="/subquery.png" ratio="612by200"></b-image>
+			</div>
+			<div class="column is-2"></div>
 		</div>
 	</div>
 </template>
@@ -279,7 +340,14 @@ export default class Team extends Vue {
 		right: -70px;
 	}
 }
-.postion{
+.postion {
 	cursor: pointer;
+}
+.linkImg {
+	width: 110px;
+	height: 27px;
+	@include mobile {
+		width: 75px;
+	}
 }
 </style>

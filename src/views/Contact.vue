@@ -1,8 +1,8 @@
 <template>
 	<div class="home min-h-full container">
 		<MenuHeader />
-
-		<div class="info-div p-5 mt-5">
+		<div class="pt-6 pb-6 mt-6 mb-6"></div>
+		<div class="info-div p-6 mt-6 mb-6">
 			<div>
 				<p class="font-size-50-contact mb-5">
 					Want to expand your brand?

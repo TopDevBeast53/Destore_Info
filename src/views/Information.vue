@@ -1,6 +1,8 @@
 <template>
 	<div class="home min-h-full container">
 		<MenuHeader />
+		<div class="pt-6 pb-6 mt-6 mb-6"></div>
+		<div class="pt-6 pb-6 mt-6 mb-6"></div>
 		<div class="m-5">
 			<b-image src="/mainImg.png" ratio="1572by2110"></b-image>
 		</div>
@@ -14,7 +16,9 @@
 				</p>
 				<p></p>
 			</div>
-			<div class="column is-3 pt-5 pb-5 pl-2 pr-2 text-word-wrap center-start-div">
+			<div
+				class="column is-3 pt-5 pb-5 pl-2 pr-2 text-word-wrap center-start-div"
+			>
 				<div style="width: 100%">
 					<p class="font-size-40-light">9.8 Billion</p>
 					<hr class="m-0 info-hr" />
@@ -22,23 +26,6 @@
 			</div>
 			<div class="column is-4 small-main-div">
 				<b-image src="/smallMain.png" ratio="600by800"></b-image>
-			</div>
-		</div>
-		<div class="columns m-5 pt-5">
-			<div class="column is-4 p-5 text-word-wrap info-div">
-				<p class="font-size-40-light-info">DAO economy</p>
-				<p class="font-size-22-light-info">
-					The DAO economy is estimated to have a collective value of
-					approximately 9.8 billion USD as of December 3, 2022,
-					according to DeepDAO.
-				</p>
-				<p></p>
-			</div>
-			<div class="column is-3 pt-5 pb-5 pl-2 pr-2 text-word-wrap center-start-div">
-				<div style="width: 100%">
-					<p class="font-size-40-light">9.8 Billion</p>
-					<hr class="m-0 info-hr" />
-				</div>
 			</div>
 		</div>
 		<div class="columns m-5 pt-5">
@@ -53,7 +40,9 @@
 				</p>
 				<p></p>
 			</div>
-			<div class="column is-3 pt-5 pb-5 pl-2 pr-2 text-word-wrap center-start-div">
+			<div
+				class="column is-3 pt-5 pb-5 pl-2 pr-2 text-word-wrap center-start-div"
+			>
 				<div style="width: 100%">
 					<p class="font-size-40-light">105 Billion</p>
 					<hr class="m-0 info-hr" />
@@ -77,7 +66,9 @@
 				</p>
 				<p></p>
 			</div>
-			<div class="column is-3 pt-5 pb-5 pl-2 pr-2 text-word-wrap center-start-div">
+			<div
+				class="column is-3 pt-5 pb-5 pl-2 pr-2 text-word-wrap center-start-div"
+			>
 				<div style="width: 100%">
 					<p class="font-size-40-light">50 Trillion</p>
 					<hr class="m-0 info-hr" />
