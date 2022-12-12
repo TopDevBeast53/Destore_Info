@@ -23,7 +23,7 @@
 			<div class="pb-5">
 				<p class="font-size-22-contact">I want to:</p>
 				<b-field class="mt-3">
-					<b-select placeholder="I want to:" rounded expanded>
+					<b-select placeholder="" rounded expanded>
 						<option value="Create a Web3 Store">Create a Web3 Store</option>
 						<option value="Talk about a problem im having">Talk about a problem im having</option>
 						<option value="Expand my brand">Expand my brand</option>
@@ -55,6 +55,12 @@
 			</div>
 		</div>
 	</div>
+	<!-- <div>
+		<h1>
+			HubSportForm
+			<div id="hubspotForm" v-once></div>
+		</h1>
+	</div> -->
 </template>
 
 <script>
@@ -68,7 +74,24 @@ import Footer from '@/components/Footer.vue'; // @ is an alias to /src
 		Footer,
 	},
 })
-export default class Contact extends Vue {}
+
+export default class Contact extends Vue {
+	mounted() {
+		// const script = document.createElement('script');
+		// script.src = 'https://js.hsforms.net/forms/v2.js';
+		// document.body.appendChild(script);
+		// script.addEventListener('load', () => {
+		// 	if (window.hbspt) {
+		// 		window.hbspt.forms.create({
+		// 			region: "na1",
+		// 			portalId: "23367504",
+		// 			formId: "346af4cd-7a04-459e-831a-be30e35f45b3",
+		// 			target: '#hubspotForm',
+		// 		});
+		// 	}
+		// });
+	}
+}
 </script>
 
 <style lang="scss">
