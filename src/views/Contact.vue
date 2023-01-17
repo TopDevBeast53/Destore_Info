@@ -1,5 +1,5 @@
 <template>
-	<div class="home min-h-full container">
+	<!-- <div class="home min-h-full container">
 		<MenuHeader />
 		<div class="pt-6 pb-6 mt-6 mb-6"></div>
 		<div class="info-div p-6 mt-6 mb-6">
@@ -54,13 +54,15 @@
 				<b-button expanded class="send-button">Send </b-button>
 			</div>
 		</div>
-	</div>
-	<!-- <div>
-		<h1>
-			HubSportForm
-			<div id="hubspotForm" v-once></div>
-		</h1>
 	</div> -->
+	<div>
+		<div class="home min-h-full container">
+			<MenuHeader />
+			<div class="info-div p-6 mt-6 mb-6">
+				<div id="hubspotForm" v-once></div>
+			</div>
+		</div>
+	</div>
 </template>
 
 <script>
@@ -74,22 +76,21 @@ import Footer from '@/components/Footer.vue'; // @ is an alias to /src
 		Footer,
 	},
 })
-
 export default class Contact extends Vue {
 	mounted() {
-		// const script = document.createElement('script');
-		// script.src = 'https://js.hsforms.net/forms/v2.js';
-		// document.body.appendChild(script);
-		// script.addEventListener('load', () => {
-		// 	if (window.hbspt) {
-		// 		window.hbspt.forms.create({
-		// 			region: "na1",
-		// 			portalId: "23367504",
-		// 			formId: "346af4cd-7a04-459e-831a-be30e35f45b3",
-		// 			target: '#hubspotForm',
-		// 		});
-		// 	}
-		// });
+		const script = document.createElement('script');
+		script.src = 'https://js.hsforms.net/forms/v2.js';
+		document.body.appendChild(script);
+		script.addEventListener('load', () => {
+			if (window.hbspt) {
+				window.hbspt.forms.create({
+					region: 'na1',
+					portalId: '23367504',
+					formId: '346af4cd-7a04-459e-831a-be30e35f45b3',
+					target: '#hubspotForm',
+				});
+			}
+		});
 	}
 }
 </script>

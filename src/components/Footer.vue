@@ -59,7 +59,7 @@ interface Menu {
 export default class Footer extends Vue {
   public menu: Menu[] = [
     {
-      name: "© 2022 DeStore Network ",
+      name: "© 2023 DeStore Network ",
       url: "/",
     },
     {
