@@ -9,7 +9,7 @@
 		<template #start>
 			<b-navbar-item>
 				<b-button class="font-size-24"  type="is-ghost"
-					><a href="https://development.destore.network/" class="navbar-head-color"
+					><a href="https://destore.network/" class="navbar-head-color"
 						>Marketplace</a
 					></b-button
 				>
